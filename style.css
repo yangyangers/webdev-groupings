@@ -11,9 +11,9 @@ body{
 	height: 100%;
 }
 .navbar-nav li a{
-	color: #fff !important;
-	font-weight: 1000;
-	text-align: right;
+	color: #fff;
+	font-weight: 600;
+	text-align: left;
 }
 .navbar-toggler-icon{
 	color: #fff;
