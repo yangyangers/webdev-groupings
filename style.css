@@ -13,13 +13,10 @@ body{
 .navbar-nav li a{
 	color: #fff !important;
 	font-weight: 600;
-	float: right;
-	text-align: left;
+	float: left;
+	text-align: right;
 }
 .navbar-toggler-icon{
 	color: #fff;
-	font-size: 20px;
-}
-.navbar-toggler{
-	outline: none;
+	font-size: 200px;
 }
