@@ -7,18 +7,12 @@ body{
 }
 #nav-bar{
 	position: sticky;
-	top: 0;
-	z-index: 10;
 }
 .navbar{
 	background-image: linear-gradient(to right, #800020, #800020);
-	padding: 0 !important;
 }
 .navbar-brand{
 	height: 100px;
-}
-.navbar-nav li{
-	padding: 0 10px;
 }
 .navbar-nav li a{
 	color: #fff !important;
