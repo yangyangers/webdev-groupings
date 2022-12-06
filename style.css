@@ -13,10 +13,9 @@ body{
 .navbar-nav li a{
 	color: #fff !important;
 	font-weight: 600;
-	float: left;
 	text-align: right;
 }
 .navbar-toggler-icon{
 	color: #fff;
-	font-size: 200px;
+	font-size: 100%;
 }
