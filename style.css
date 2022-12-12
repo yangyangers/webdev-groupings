@@ -1,8 +1,6 @@
 body{
 	font-family: sans-serif;
 }
-#nav-bar{
-	position: sticky;
 }
 .navbar{
 	background-image: linear-gradient(to right, #800020, #800020);
@@ -18,8 +16,4 @@ body{
 .navbar-toggler-icon{
 	color: #fff;
 	font-size: 100%;
-}
-#nav-link{
-	margin: right;
-	text-align: right;
 }
