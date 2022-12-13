@@ -17,3 +17,6 @@ body{
 	color: #fff;
 	font-size: 100%;
 }
+.justify-content-end{
+	align-items: right;
+}
