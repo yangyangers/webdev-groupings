@@ -1,21 +1,8 @@
 body{
 	font-family: sans-serif;
+	text-align: right;
 }
 .navbar{
 	background-image: linear-gradient(to right, #800020, #800020);
-}
-.navbar-brand{
-	height: 100%;
-}
-.navbar-nav li a{
-	color: #fff;
-	font-weight: 600;
-	text-align: right;
-}
-.navbar-toggler-icon{
-	color: #fff;
-	font-size: 100%;
-}
-.justify-content-end{
-	align-items: right;
+	justify-content: space-around;
 }
