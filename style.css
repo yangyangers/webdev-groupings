@@ -1,0 +1,104 @@
+body{
+	font-family: sans-serif;
+}
+.navbar{
+	background-image: linear-gradient(to right, #800020, #800020);
+}
+.navbar-brand{
+	height: 100%;
+}
+.navbar-nav li a{
+	color: #fff;
+	font-weight: 600;
+	text-align: right;
+}
+.navbar-toggler-icon{
+	color: #fff;
+	font-size: 100%;
+}
+.justify-content-end{
+	align-items: right;
+}
+
+/* artist html */
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 76% arial,sans-serif;
+	text-align:center;
+}
+p{
+	margin:0 10px 10px;
+}
+a{
+	padding:5px;
+	text-decoration: none; 
+	color:#000000;
+}
+div#header{
+	background-color:#F3F2ED;
+}
+div#header h1{
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+	padding-left: 10px;
+}
+div#container{
+	text-align: left;
+}
+div#content p{
+	line-height: 1.2;
+	font-size: 20px;
+}
+div#navigation{
+	background:#F6F0E0;
+}
+div#navigation ul{
+	margin:20px 0; 
+	padding:0; 
+	list-style-type:none;
+}
+div#navigation li{
+	margin-bottom: 15px;
+	margin-left: 1px;
+	margin-top: 1px;
+	font-size: 15px;
+	font-style: italic;
+}
+div#extra{
+	background:#CCC8B3;
+}
+div#footer{
+	background:#BFBD93;
+}
+div#footer p{
+	margin: 0;
+	padding: 5px 10px;
+}
+div#container{
+	width:700px;
+	margin:0 auto;
+}
+div#wrapper{
+	float:left;
+	width:100%;
+}
+div#content{
+	margin: 0 150px;
+}
+div#navigation{
+	float: left;
+	width: 150px;
+	margin-left: -700px;
+}
+div#extra{
+	float: left;
+	width: 150px;
+	margin-left: -150px}
+div#footer{
+	clear: left;
+	width: 100%;
+}
