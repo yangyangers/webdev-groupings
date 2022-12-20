@@ -4,10 +4,16 @@ body{
 }
 .navbar{
 	background-image: linear-gradient(to right, #800020, #800020);
-	justify-content: space-around;
+	position: sticky;
+}
+.nav-bar{
+	position: sticky;
+	z-index: 10;
+	top: 0;
 }
 .navbar-brand{
 	height: 100%;
+
 }
 .nav li a{
 	color: powderblue;
@@ -113,4 +119,50 @@ div#extra{
 div#footer{
 	clear: left;
 	width: 100%;
+}
+h2{
+	text-align: center;
+}
+.wrapper{
+	margin-top: 10%;
+}
+.wrapper h1{
+	font-family: sans-serif;
+	font-size: 52px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team .member{
+	background: #BFBD93;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 20px;
+	line-height: 20px;
+	color: forestgreen;
+	position: relative;
+}
+.team .member h3{
+	color: saddlebrown;
+	font-size: 26px;
+	margin-top: 50px;
+}
+.team .member .m{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.team .member .m img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
