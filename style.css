@@ -6,22 +6,28 @@ body{
 	background-image: linear-gradient(to right, #800020, #800020);
 	justify-content: space-around;
 }
-<<<<<<< HEAD
-=======
 .navbar-brand{
 	height: 100%;
 }
-.navbar-nav li a{
-	color: #fff;
+.nav li a{
+	color: powderblue;
 	font-weight: 600;
-	text-align: right;
+	text-align: left;
+}
+.nav ul a{
+	color: powderblue;
+	font-weight: 600;
+	text-align: left;
+}
+#dropdown-menu{
+	color: darkgrey;
+	font-weight: 600;
+	text-align: left;
 }
 .navbar-toggler-icon{
 	color: #fff;
 	font-size: 100%;
-}
-.justify-content-end{
-	align-items: right;
+
 }
 
 /* artist html */
@@ -106,4 +112,3 @@ div#footer{
 	clear: left;
 	width: 100%;
 }
->>>>>>> 5958eaae6fd582682b5ffd0cdbb0cb1d8a16ea55
