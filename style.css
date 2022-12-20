@@ -38,6 +38,8 @@ html,body{
 body{
 	font: 76% arial,sans-serif;
 	text-align:center;
+	background-image: url(https://i.pinimg.com/564x/59/7c/42/597c42a250f5e3c04dc291c05ca253d9.jpg);
+	opacity: 150%;
 }
 p{
 	margin:0 10px 10px;
@@ -48,7 +50,7 @@ a{
 	color:#000000;
 }
 div#header{
-	background-color:#F3F2ED;
+	background-color:#BFBD93;
 }
 div#header h1{
 	height: 80px;
