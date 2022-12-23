@@ -10,11 +10,10 @@ body{
 	position: sticky;
 	z-index: 10;
 	top: 0;
-	color: powderblue;
 }
-.navbar-brand{
-	height: 100%;
+.navbar-brand a{
 	color: powderblue;
+	text-emphasis-color: powderblue;
 
 }
 .nav li a{
@@ -28,13 +27,9 @@ body{
 	text-align: left;
 }
 #dropdown-menu{
-	color: darkgrey;
+	color: forestgreen;
 	font-weight: 600;
 	text-align: left;
-}
-.navbar-toggler-icon{
-	color: #fff;
-	font-size: 100%;
 }
 
 /* artist html */
